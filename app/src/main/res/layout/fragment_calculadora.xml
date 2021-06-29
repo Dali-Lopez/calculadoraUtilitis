@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.calculadora.CalculadoraFragment">
+
+    <TextView
+        android:id="@+id/text_dato_control"
+        android:layout_width="184dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_datos_segundonumero"
+        android:layout_width="146dp"
+        android:layout_height="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="41dp"
+        android:layout_toEndOf="@+id/text_datos_signo"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_datos_result"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="0dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_datos_signo"
+        android:layout_width="34dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_num_resta"
+        android:layout_width="78dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="318dp"
+        android:layout_marginBottom="261dp"
+        android:text="@string/num_resta" />
+
+    <Button
+        android:id="@+id/button_num_multiplicacion"
+        android:layout_width="78dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="317dp"
+        android:layout_marginBottom="194dp"
+        android:text="@string/num_multiplicacion" />
+
+    <Button
+        android:id="@+id/button_num_division"
+        android:layout_width="78dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="319dp"
+        android:layout_marginBottom="127dp"
+        android:text="@string/num_division" />
+
+    <Button
+        android:id="@+id/button_num_igual"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="317dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/num_igual" />
+
+    <Button
+        android:id="@+id/button_num_1"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="313dp"
+        android:text="@string/num_1" />
+
+    <Button
+        android:id="@+id/button_num_2"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginBottom="312dp"
+        android:text="@string/num_2" />
+
+    <Button
+        android:id="@+id/button_num_3"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginBottom="312dp"
+        android:text="@string/num_3" />
+
+    <Button
+        android:id="@+id/button_num_suma"
+        android:layout_width="78dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="318dp"
+        android:layout_marginBottom="328dp"
+        android:text="@string/num_suma" />
+
+    <Button
+        android:id="@+id/button_num_4"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="217dp"
+        android:text="@string/num_4"/>
+
+    <Button
+        android:id="@+id/button_num_5"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginBottom="214dp"
+        android:text="@string/num_5" />
+
+    <Button
+        android:id="@+id/button_num_6"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginBottom="216dp"
+        android:text="@string/num_6" />
+
+    <Button
+        android:id="@+id/button_num_7"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="117dp"
+        android:text="@string/num_7" />
+
+    <Button
+        android:id="@+id/button_num_8"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginBottom="117dp"
+        android:text="@string/num_8" />
+
+    <Button
+        android:id="@+id/button_num_9"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginBottom="117dp"
+        android:text="@string/num_9"/>
+
+    <Button
+        android:id="@+id/button_num_0"
+        android:layout_width="268dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="53dp"
+        android:text="@string/num_0" />
+
+    <Button
+        android:id="@+id/button_num_regresaruno"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/num_regresaruno" />
+
+    <Button
+        android:id="@+id/button_num_limpiar"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/num_limpiar" />
+
+</RelativeLayout>

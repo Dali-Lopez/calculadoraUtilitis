@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.subida.SubidaFragment">
+
+    <Spinner
+        android:id="@+id/spinner_velocidad_tipo"
+        android:layout_width="118dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="13dp"
+        android:layout_toEndOf="@+id/text_velocidad" />
+
+    <Spinner
+        android:id="@+id/spinner_tam_tipo"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="13dp"
+        android:layout_toEndOf="@+id/text_velocidad" />
+
+    <Button
+        android:id="@+id/button_num_limpiar"
+        android:layout_width="321dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/button_num_calcular"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="257dp"
+        android:text="@string/num_limpiar" />
+
+    <TextView
+        android:id="@+id/text_label_tamaño"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/info_tam"/>
+
+    <TextView
+        android:id="@+id/text_label_tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="139dp"
+        android:text="@string/info_velocidad_subida" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/info_tiempo_subida" />
+
+    <EditText
+        android:id="@+id/text_tam_descarga"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/text_velocidad"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/text_view_tiempo_de_descarga"
+        android:layout_width="344dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="24dp"
+        android:text="Tiempo en minutos"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_num_calcular"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="355dp"
+        android:text="@string/info_calcular" />
+</RelativeLayout>
